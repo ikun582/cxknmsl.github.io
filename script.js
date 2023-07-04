@@ -577,4 +577,3 @@ function dedede() {
   canvas.height = H;
   Draw();
 }
-  <audio src="music/2.mp3"  autoplay="autoplay" loop="loop"></audio> -->
