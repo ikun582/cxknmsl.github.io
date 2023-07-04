@@ -10,11 +10,11 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  background: rgb(119, 13, 13);
+  background: rgb(227,249,253);
   background: radial-gradient(
     circle,
-    rgba(119, 13, 13, 0.92) 64%,
-    rgba(0, 0, 0, 0.6) 100%
+    hwba(189.882, 0%, 0%, 1) 64%,
+    hwba(181.071, 78%, 0%, 1) 100%
   );
 }
 
