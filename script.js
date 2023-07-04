@@ -577,6 +577,3 @@ function dedede() {
   canvas.height = H;
   Draw();
 }
-p {
-  background-color: pink;
-}
