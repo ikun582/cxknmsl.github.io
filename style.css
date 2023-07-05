@@ -4,18 +4,7 @@
   font-family: "Aleo", sans-serif;
 }
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  background=32.jpg;
-    circle,
-    hwba(189.882, 0%, 0%, 1) 64%,
-    hwba(181.071, 78%, 0%, 1) 100%
-  );
-}
+
 
 h1 {
   position: absolute;
