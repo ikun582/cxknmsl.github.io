@@ -577,3 +577,12 @@ function dedede() {
   canvas.height = H;
   Draw();
 }
+
+window.addEventListener('scroll', function() {
+  var scrollText = document.getElementById('scrollText');
+  if (window.scrollY > 0) {
+    scrollText.style.display = 'none';
+  } else {
+    scrollText.style.display = 'block';
+  }
+});
