@@ -6,12 +6,38 @@
   <link rel="stylesheet" href="./style.css">
 
 <head>
-    <style>
-        body {
-            background-image: url("32.jpg");
-            background-size: cover;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Background Animation</title>
+  <style>
+    body {
+      background-image: url("32.jpg");
+      background-size: cover;
+      animation: background-animation 10s infinite;
+    }
+
+    @keyframes background-animation {
+      0% {
+        background-image: url("32.jpg");
+      }
+      25% {
+        background-image: url("30.jpg");
+      }
+      50% {
+        background-image: url("31.jpg");
+      }
+      75% {
+        background-image: url("4.jpg");
+      }
+      100% {
+        background-image: url("32.jpg");
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- 页面内容 -->
+</body>
+</html>
 	
 </head>
 <body>
